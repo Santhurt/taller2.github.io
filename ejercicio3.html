@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Calcular el valor total del embarque</h1>
+
+        <div class="entrada">
+            <h2>Ingrese los datos</h2>
+
+            <label for="tipo">Tipo de uva</label>
+            <input type="tipo" name="tipo" id="tipo" placeholder="Tipo">
+
+            <br> <br>
+
+            <label for="tamano">Tamaño</label>
+            <input type="tamano" name="tamano" id="tamano" placeholder="Tamaño">
+            
+            <br> <br>
+            
+            <label for="cantidad">Cantidad</label>
+            <input type="cantidad" name="cantidad" id="cantidad" placeholder="cantidad">
+            
+            <br> <br>
+
+            <button type="button" onclick="CalcularEmbarque()">Calcular</button>
+
+        </div>
+
+        <div class="salida">
+            <h2>Total del embarque</h2>
+            <div class="resultado" id="resultado">
+
+            </div>
+        </div>
+
+    </div>
+    <div class="menu">
+        <ol>
+            <li><a href="/index.html">Ejercicio 1</a></li>
+            <li><a href="/ejercicio2.html">Ejercicio 2</a></li>
+            <li><a href="/ejercicio3.html">Ejercicio 3</a></li>
+            <li><a href="/ejercicio4.html">Ejercicio 4</a></li>
+        </ol>
+    </div>
+
+
+    <script src="/js/funciones.js"></script>
+</body>
+</html>
